@@ -11,6 +11,7 @@ You need the following to run this app:
 
 Open a terminal at the repo root, and run the following:
 
+```bash
 python -m venv venv
 pip install -r requirements.txt
 cd microblog/front-end
@@ -18,7 +19,7 @@ npm install
 ng build
 cd ../..
 python manage.py runserver
-
+```
 
 Your app will be available at http://127.0.0.1:8000.
 
@@ -32,6 +33,8 @@ The database included in this repository contains two users. The following are t
 
 - chaitu / 12345
 - phani / 12345
+
+NOTE: can able to create post after successful login.
 
 ## creating users if required:
 

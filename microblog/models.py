@@ -11,7 +11,7 @@ class BlogPost(models.Model):
     date = models.DateTimeField(
         default=timezone.now
     )
-    body = models.CharField(default='', max_length=200)
+    body = models.CharField(default='', max_length=1020)
 
     def __str__(self):
         return self.body

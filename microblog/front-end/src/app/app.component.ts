@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
         this.posts = data;
         // convert the dates to a nice format
         for (let post of this.posts) {
-          post.date = new Date(post.date);
+          post.date = new Date(post.date);         
         }
       },
       // the second argument is a function which runs on error

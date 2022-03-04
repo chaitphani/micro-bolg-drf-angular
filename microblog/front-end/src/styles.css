@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    background: url('https://www.nsamedia.com/wp-content/uploads/2015/10/blog-bg-use.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label{
+    font-weight: bold;
+}
+
+.card{
+    background: #b08256;
+}
+
+.btn-primaryy{
+    background-color: transparent;
+    color: black;
+    border-color: #0d6208;
+}

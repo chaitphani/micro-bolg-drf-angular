@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\r\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\r\n\r\nbody{\r\n    background: url('https://www.nsamedia.com/wp-content/uploads/2015/10/blog-bg-use.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\n\r\n.text-decoration-underline{\r\n    text-decoration: underline;\r\n}\r\n\r\nlabel{\r\n    font-weight: bold;\r\n}"
 
 /***/ }),
 
@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! Z:\Django_projects\Tasks\aryaa\angular-django-example\microblog\front-end\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! Z:\Django_projects\Tasks\micro-bolg-drf-angular\microblog\front-end\src\styles.css */"./src/styles.css");
 
 
 /***/ })
